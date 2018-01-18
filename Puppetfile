@@ -113,3 +113,6 @@ mod 'f5-f5', '1.8.0'
 
 mod 'puppetlabs-azure', '1.2.0'
 mod 'puppetlabs-wsus_client', '1.0.3'
+
+mod 'tragiccode-wsusserver', '1.0.0'
+

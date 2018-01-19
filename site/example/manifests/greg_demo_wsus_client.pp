@@ -4,6 +4,6 @@ class { '::wsus_client':
     server_url                     => 'http://10.2.1.17:8530',
     auto_update_option             => 'NotifyOnly',
     detection_frequency_hours      => '1',
-    enable_status_server           => 'true',
+    enable_status_server           => true,
     }
 }

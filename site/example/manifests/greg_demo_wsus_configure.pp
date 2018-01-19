@@ -1,6 +1,6 @@
 class example::greg_demo_wsus_configure {
 
-class { 'wsusserver':
+class { ::'wsusserver':
     package_ensure                     => 'present',
     include_management_console         => true,
     service_manage                     => true,

@@ -20,7 +20,7 @@ class { '::wsusserver':
       'Windows Defender',
     ],
     update_classifications             => [
-        'Windows Server 2012
+        'Windows Server 2012',
         'Windows Server 2016',
     ],
     targeting_mode                     => 'Client',

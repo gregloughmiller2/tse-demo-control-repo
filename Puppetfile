@@ -116,3 +116,5 @@ mod 'puppetlabs-wsus_client', '1.0.3'
 
 mod 'tragiccode-wsusserver', '1.0.0'
 
+# A Windows Time Server
+mod 'ncorrare-windowstime', '0.4.3'

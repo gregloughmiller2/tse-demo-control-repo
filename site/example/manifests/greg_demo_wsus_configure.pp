@@ -5,7 +5,7 @@ class { '::wsusserver':
     include_management_console         => true,
     service_manage                     => true,
     service_ensure                     => 'running',
-    service_enable                     => true
+    service_enable                     => true,
     wsus_directory                     => 'C:\\WSUS',
     join_improvement_program           => false,
     sync_from_microsoft_update         => true,

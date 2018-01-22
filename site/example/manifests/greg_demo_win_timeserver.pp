@@ -1,6 +1,6 @@
 class example::greg_demo_win_timeserver  {
 
-  include ::windowstime
+###  include ::windowstime
 
   class { 'windowstime':
     servers  => { 'pool.ntp.org'     => '0x01',

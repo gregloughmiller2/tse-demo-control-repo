@@ -6,7 +6,7 @@ dsc_user { 'demouser':
   dsc_ensure       => present,
   dsc_password     =>  {
     'user' => 'demouser',
-    'password => Sensitive('demopassworda)'
+    'password => Sensitive('demopassword')
     },
   dsc_passwordneverexpires  => false,
   }
@@ -18,5 +18,4 @@ user { 'demoadmin':
   membership	=>	inclusive,
   password	=>	'secretpassword',
   }
-
 }

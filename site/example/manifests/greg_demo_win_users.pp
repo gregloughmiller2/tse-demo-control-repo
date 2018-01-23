@@ -5,6 +5,6 @@ user { 'demoadmin':
   ensure	=> 	present,
   groups	=>	['Administrators'],
   membership	=>	inclusive,
-  password	=>	'secretpassword',
+  password	=>	'SecretPassword12!',
   }
 }

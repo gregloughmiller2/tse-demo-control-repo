@@ -1,4 +1,4 @@
-class example::greg_demo_file.pp {
+class example::greg_demo_file {
 
 file { 'c:\\Temp\thisisdemo.conf':
    ensure 	=> present,

@@ -6,7 +6,7 @@ dsc_user { 'demouser':
   dsc_ensure       => present,
   dsc_password     =>  {
     'user' => 'demouser',
-    'password => 'demopassword'
+    'password => Sensitive('demopassworda)'
     },
   dsc_passwordneverexpires  => false,
   }

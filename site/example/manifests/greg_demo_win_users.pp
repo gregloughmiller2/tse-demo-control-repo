@@ -1,4 +1,4 @@
-class example::greg_demo_win_user {
+class example::greg_demo_win_users {
 #
 user { 'demoadmin':
   name		=>	'demoadmin',

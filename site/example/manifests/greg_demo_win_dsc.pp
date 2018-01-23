@@ -4,6 +4,10 @@ dsc_user { 'demouser':
   dsc_username   => 'demouser',
   dsc_description  => 'demo',
   dsc_ensure       => present,
+  dsc_password	=>	{
+    'user'   =>    'demouser',
+    'password'    =>    'mysecretpassword'
+  }, 
   dsc_passwordneverexpires  => false,
   dsc_passwordchangerequired  => true,
   dsc_disabled  => false,

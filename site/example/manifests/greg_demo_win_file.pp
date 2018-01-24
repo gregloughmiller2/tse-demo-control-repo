@@ -7,7 +7,7 @@ file { 'c:\\Temp\thisisdemo.conf':
 
 file { 'c:\\Temp\demofilefromsource.config':
    ensure	=> present,
-   source       => 'puppet:///modules/example/demofilefromsource.config',
+   source       => 'puppet:///site/example/demofilefromsource.config',
    }
 
 }

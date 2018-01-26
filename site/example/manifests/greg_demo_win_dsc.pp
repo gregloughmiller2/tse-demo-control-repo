@@ -11,15 +11,4 @@ dsc_registry {'registry_demo':
   dsc_valuename	=> 'DSCPuppet',
   dsc_valuedata	=> 'This is a test with DSc Puppet Module',
   } 
-
-  # CUSTOM SSL REG KEYS
-dsc_registry { 'ssl server key':
-   dsc_ensure     => 'Present',
-   dsc_key        => 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Server',
-   dsc_valuename  => 'Enabled',
-   dsc_valuedata  => '1',
-   dsc_valuetype  => 'Dword',
-   dsc_hex  => 'True',
-  }
-
 }

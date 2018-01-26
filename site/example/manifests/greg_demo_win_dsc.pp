@@ -14,7 +14,7 @@ dsc_registry {'registry_demo':
 
   # CUSTOM SSL REG KEYS
 dsc_registry { 'ssl server key':
-   dsc_ensure   => present
+   dsc_ensure   => present,
    dsc_key   =>  'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Server\',
    dsc_valuename  => 'Enabled',
    dsc_valuedata  => '0x1',

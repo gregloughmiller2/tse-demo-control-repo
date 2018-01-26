@@ -5,10 +5,12 @@ class example::greg_demo_win_dsc {
 #  dsc_name  => 'Web-Server',
 #  }
 
-dsc_registry {'registry_demo':
-  dsc_ensure 	=> present,
-  dsc_key	=> 'HKEY_LOCAL_MACHINE\SOFTWARE\DemoKey',
-  dsc_valuename	=> 'DSCPuppet',
-  dsc_valuedata	=> 'This is a test with DSc Puppet Module',
-  } 
+
+dsc_xmppreference { 'Defender':
+   dsc_scanscheduleday  => 'Everyday'
+   dsc_scanparameters   => 'QuickScan'
+   dsc_scanscheduletime => '600'
+   dsc_disablerealtimemonitoring  => '$True'
+}
+
 }

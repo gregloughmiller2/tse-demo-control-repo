@@ -11,4 +11,9 @@ class example::greg_demo_win_sslv2 {
     data       => '0x1',
   }
 
+  reboot { 'after':
+    subscribe	=> Registry_value['HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Server\Enabled'],
+  }
+
+
 }

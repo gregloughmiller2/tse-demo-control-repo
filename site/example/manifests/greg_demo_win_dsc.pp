@@ -4,7 +4,7 @@ dsc_xmppreference { 'Demo-Defender':
    dsc_name             => 'Demo-Defender',
    dsc_scanscheduleday  => 'Everyday',
    dsc_scanparameters   => 'QuickScan',
-   dsc_scanscheduletime => '660',
+   dsc_scanscheduletime => 660,
    dsc_disablerealtimemonitoring  => 'True',
 }
 

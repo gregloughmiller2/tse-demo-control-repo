@@ -7,10 +7,10 @@ class example::greg_demo_win_dsc {
 
 
 dsc_xmppreference { 'Defender':
-   dsc_scanscheduleday  => 'Everyday'
-   dsc_scanparameters   => 'QuickScan'
-   dsc_scanscheduletime => '600'
-   dsc_disablerealtimemonitoring  => '$True'
+   dsc_scanscheduleday  => 'Everyday',
+   dsc_scanparameters   => 'QuickScan',
+   dsc_scanscheduletime => '600',
+   dsc_disablerealtimemonitoring  => '$True',
 }
 
 }

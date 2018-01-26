@@ -6,9 +6,9 @@ class example::greg_demo_win_sslv2 {
     purge_values => true,
   }
 
-#  registry_key { 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Server\Enabled':
-#    type => dword,
-#    data => '0x1',
-#  }
+  registry_key { 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Server\Enabled':
+    type => dword,
+    data => '0x1',
+  }
 
 }
